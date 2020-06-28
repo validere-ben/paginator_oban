@@ -1,9 +1,9 @@
 defmodule Spike.Examples.Pagination.Scrivener do
   import Ecto.Query
 
-  alias Spike.IAM.Account
-  alias Spike.IAM.Role
-  alias Spike.IAM.User
+  alias Spike.Accounts.Account
+  alias Spike.Accounts.Role
+  alias Spike.Accounts.User
   alias Spike.Repo
 
   # Much simpler since we don't need to worry about generating a cursor

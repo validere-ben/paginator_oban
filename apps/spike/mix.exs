@@ -31,6 +31,7 @@ defmodule Spike.MixProject do
     [
       {:ecto_sql, "~> 3.4"},
       {:jason, "~> 1.0"},
+      {:oban, "~> 1.2"},
       {:paginator, git: "git@github.com:duffelhq/paginator.git"},
       {:postgrex, ">= 0.0.0"},
       {:scrivener_ecto, "~> 2.0"}

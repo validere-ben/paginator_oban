@@ -1,8 +1,8 @@
-defmodule Spike.IAM.Account do
+defmodule Spike.Accounts.Account do
   use Spike.Schema
 
-  alias Spike.IAM.Role
-  alias Spike.IAM.User
+  alias Spike.Accounts.Role
+  alias Spike.Accounts.User
 
   @required [
     :name

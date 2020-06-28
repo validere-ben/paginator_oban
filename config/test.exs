@@ -12,6 +12,12 @@ config :spike, Spike.Repo,
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
 
+config :spike, Oban,
+  repo: Spike.Repo,
+  crontab: false,
+  queues: false,
+  prune: :disabled
+
 # We don't run a server during test. If one is required,
 # you can enable the server option below.
 config :spike_web, SpikeWeb.Endpoint,

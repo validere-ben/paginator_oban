@@ -1,9 +1,9 @@
 defmodule Spike.Examples.Pagination.Paginator do
   import Ecto.Query
 
-  alias Spike.IAM.Account
-  alias Spike.IAM.Role
-  alias Spike.IAM.User
+  alias Spike.Accounts.Account
+  alias Spike.Accounts.Role
+  alias Spike.Accounts.User
   alias Spike.Repo
 
   # Paginator master has added support for sorting by joined/assoc columns (made possible by

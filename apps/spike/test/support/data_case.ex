@@ -24,6 +24,8 @@ defmodule Spike.DataCase do
       import Ecto.Changeset
       import Ecto.Query
       import Spike.DataCase
+
+      use Oban.Testing, repo: Spike.Repo
     end
   end
 

@@ -1,9 +1,9 @@
 defmodule Mix.Tasks.Spike.Seed do
   use Mix.Task
 
-  alias Spike.IAM.Account
-  alias Spike.IAM.Role
-  alias Spike.IAM.User
+  alias Spike.Accounts.Account
+  alias Spike.Accounts.Role
+  alias Spike.Accounts.User
   alias Spike.Repo
 
   def run(_term) do
