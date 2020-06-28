@@ -1,0 +1,2 @@
+defmodule Spike do
+end
